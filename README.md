@@ -11,7 +11,6 @@ English | [中文](README_zh-CN.md)
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/collections/DataHammer/hammerllm-14b-660d227bf2e7fcbf6ceb5620)
 [![License](https://img.shields.io/badge/Code%20License-MIT-yellow)](https://github.com/Academic-Hammer/HammerLLM/blob/main/LICENSE)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAcademic-Hammer%2FHammerLLM&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
-![Github stars](https://img.shields.io/github/stars/Academic-Hammer/HammerLLM.svg)
 </h5>
 
 Welcome to the pre-training repository for our **s**mall-size **L**arge **L**anguage **M**odel (sLLM) with **1.4 billion** parameters, leveraged on the **Llama 2** architecture. Our sLLM exhibits advantages in following features:
