@@ -9,9 +9,9 @@ English | [中文](README_zh-CN.md)
 <h5 align=center>
 
 [![hf](https://img.shields.io/badge/🤗-Hugging%20Face-blue.svg)](https://huggingface.co/collections/DataHammer/hammerllm-14b-660d227bf2e7fcbf6ceb5620)
-[![License](https://img.shields.io/badge/Code%20License-MIT-yellow)](https://github.com/tiny-llm/HammerLLM/blob/main/LICENSE)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftiny-llm%2FHammerLLM&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
-![Github stars](https://img.shields.io/github/stars/tiny-llm/HammerLLM.svg)
+[![License](https://img.shields.io/badge/Code%20License-MIT-yellow)](https://github.com/Academic-Hammer/HammerLLM/blob/main/LICENSE)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAcademic-Hammer%2FHammerLLM&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
+![Github stars](https://img.shields.io/github/stars/Academic-Hammer/HammerLLM.svg)
 </h5>
 
 Welcome to the pre-training repository for our **s**mall-size **L**arge **L**anguage **M**odel (sLLM) with **1.4 billion** parameters, leveraged on the **Llama 2** architecture. Our sLLM exhibits advantages in following features:
@@ -234,7 +234,7 @@ The experimental results are shown as follows:
 | [Internlm-7b/20b](https://huggingface.co/internlm/internlm-7b)   |   **100.00%**   |   65.93%    |    5.67%    | 4.3133      |     0.5276     |   
 | [Qwen-7b/14b/72b](https://huggingface.co/Qwen/Qwen-7B)   |   **100.00%**   |   **100.00%**   |   **100.00%**   | 4.1326      |     0.5506     |   
 | [Llama-2-7b/13b/70b](https://huggingface.co/meta-llama/Llama-2-7b-hf)  |   17.29%    |    0.13%    |    0.00%    | 2.2755      |        1.00         |  
-| [Ours](https://github.com/tiny-llm/HammerLLM/tree/main/merge_tokenizer/internlm_merged_fast)   |    **100.00%**     |   **100.00%**    |    **100.00%**    |   **4.3143**   |     **0.5274**             | 
+| [Ours](https://github.com/Academic-Hammer/HammerLLM/tree/main/merge_tokenizer/internlm_merged_fast)   |    **100.00%**     |   **100.00%**    |    **100.00%**    |   **4.3143**   |     **0.5274**             | 
 
 The experimental results reveal the advantages of our tokenizer over existing popular LLMs' tokenizers in compression rate (on Chinese, English, and Code), and the Chinese character coverage. Please refer to [REPRODUCE.md](./REPRODUCE.md) for more details about this experiment.
 
@@ -314,7 +314,7 @@ One of contriution is that we have publicly release the steps to train our model
 author = {Ziao, Ma and Tian, Lan and Yang, Yizhe and Yong, Hu},
 month = apr,
 title = {{HammerLLM}},
-url = {https://github.com/tiny-llm/Introduction},
+url = {https://github.com/Academic-Hammer/HammerLLM},
 version = {1.0.0},
 year = {2024}
 }

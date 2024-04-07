@@ -36,7 +36,7 @@
 * 补充InternLM分词器中没有而我们训练的分词器中有的token，如一些常见汉字和用户定义的符号
 * 转换成Llama format的分词器
 您可以在[这里](./merge_tokenizer)找到更多关于我们如何构建分词器的详细信息。
-我们的分词器位于[这里](https://github.com/tiny-llm/Introduction/tree/main/merge_tokenizer/internlm_merged_fast)，它包含`105789`个标记，实现了`100%`的汉字覆盖。
+我们的分词器位于[这里](https://github.com/Academic-Hammer/HammerLLM/tree/main/merge_tokenizer/internlm_merged_fast)，它包含`105789`个标记，实现了`100%`的汉字覆盖。
 
  
 #### Experimental Results
@@ -78,7 +78,7 @@ python coverage_analyze.py
 | [Internlm-7b/20b](https://huggingface.co/internlm/internlm-7b)   |   **100.00%**   |   65.93%    |    5.67%    | 4.3133      |     0.5276     |   
 | [Qwen-7b/14b/72b](https://huggingface.co/Qwen/Qwen-7B)   |   **100.00%**   |   **100.00%**   |   **100.00%**   | 4.1326      |     0.5506     |   
 | [Llama-2-7b/13b/70b](https://huggingface.co/meta-llama/Llama-2-7b-hf)  |   17.29%    |    0.13%    |    0.00%    | 2.2755      |        1.00         |  
-| [Ours](https://github.com/tiny-llm/HammerLLM/tree/main/merge_tokenizer/internlm_merged_fast)   |    **100.00%**     |   **100.00%**    |    **100.00%**    |   **4.3143**   |     **0.5274**             | 
+| [Ours](https://github.com/Academic-Hammer/HammerLLM/tree/main/merge_tokenizer/internlm_merged_fast)   |    **100.00%**     |   **100.00%**    |    **100.00%**    |   **4.3143**   |     **0.5274**             | 
 
 实验结果揭示了我们的分词器在压缩率（对中文、英文和代码数据）和汉字覆盖率方面，相较于现有流行LLM的分词器的优势。
 
