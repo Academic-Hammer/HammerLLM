@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use our small-size LLM, please cite it as below."
+authors:
+- family-names: "Ziao"
+  given-names: "Ma"
+- family-names: "Tian"
+  given-names: "Lan"
+  orcid: "https://orcid.org/0000-0002-5200-1537"
+- family-names: "Yang"
+  given-names: "Yizhe"
+- family-names: "Yong"
+  given-names: "Hu"
+title: "HammerLLM"
+version: 1.0.0
+date-released: 2024-04-01
+url: "https://github.com/tiny-llm/Introduction"

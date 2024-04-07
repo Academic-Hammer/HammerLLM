@@ -1,0 +1,283 @@
+---
+- group: bert
+  name: 原生的BERT类的模型
+  models:
+  # 2019-06-18
+  - bert-base-cased
+  # 2019-07-16
+  - xlnet-base-cased
+  # 2019-11-05
+  - albert-base-v2
+  # 2019-12-19
+  - roberta-large
+  # 2020-03-25
+  - google/electra-base-discriminator
+
+- group: sbert
+  name: Sentence Transformers 提供的模型
+  models:
+  # 2021-05-20
+  - sentence-transformers/paraphrase-MiniLM-L6-v2
+  # 2021-08-18
+  - sentence-transformers/all-roberta-large-v1
+  # 2021-08-24
+  - sentence-transformers/multi-qa-mpnet-base-dot-v1
+  # 2021-08-31
+  - sentence-transformers/all-MiniLM-L6-v2
+  # 2021-08-31
+  - sentence-transformers/all-mpnet-base-v2
+
+- group: bert-multilingual
+  name: 多语言 BERT 系列模型
+  models:
+  # 2019-06-18
+  - bert-base-multilingual-cased
+  # 2021-05-19
+  - sentence-transformers/paraphrase-MiniLM-L12-v2
+  # 2020-06-19
+  - microsoft/Multilingual-MiniLM-L12-H384
+  # 2021-06-02
+  - sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  # 2023-06-22
+  - shibing624/text2vec-base-multilingual
+  # 2019-12-19
+  - xlm-roberta-base
+  # 2021-05-20
+  - sentence-transformers/paraphrase-mpnet-base-v2
+  # 2021-06-02
+  - sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+  # 2019-12-05
+  - distilbert-base-multilingual-cased
+  # 2021-06-23
+  - sentence-transformers/distiluse-base-multilingual-cased-v2
+
+- group: bert-zh
+  name: BERT 中文模型
+  models:
+  # 2019-06-18
+  - bert-base-chinese
+  # 2019-12-19
+  - hfl/chinese-bert-wwm-ext
+  # 2020-11-03
+  - hfl/chinese-macbert-base
+  # 2020-11-13
+  - hfl/chinese-legal-electra-base-generator
+  # 2021-04-18
+  - junnyu/wobert_chinese_plus_base
+  # 2021-05-08
+  - SIKU-BERT/sikubert
+  # 2021-05-08
+  - SIKU-BERT/sikuroberta
+  # 2021-09-10
+  - fnlp/bart-base-chinese
+  # 2021-09-29
+  - Langboat/mengzi-bert-base
+  # 2022-01-23
+  - shibing624/text2vec-base-chinese
+  # 2022-10-22
+  - IDEA-CCNL/Erlangshen-TCBert-330M-Sentence-Embedding-Chinese
+  # 2023-06-06
+  - moka-ai/m3e-base
+  # 2023-08-05
+  - BAAI/bge-base-zh
+
+- group: gpt2
+  name: GPT2 架构模型
+  models:
+  # 2020-12-12
+  - TsinghuaAI/CPM-Generate
+  # 2021-11-25
+  - IDEA-CCNL/Wenzhong-GPT2-3.5B
+  # 2022-06-08
+  - IDEA-CCNL/Wenzhong2.0-GPT2-3.5B-chinese
+
+- group: t5
+  name: Google T5 系列模型 (Encoder-Decoder)
+  models:
+  # 2021-10-08
+  - Langboat/mengzi-t5-base
+  # 2022-06-17
+  - shibing624/mengzi-t5-base-chinese-correction
+  # 2022-10-21
+  - google/flan-t5-base
+
+- group: llama
+  name: LLAMA 及衍生模型
+  models:
+  # 2023-03-05
+  - decapoda-research/llama-7b-hf
+  # 2023-04-07
+  - TheBloke/koala-7B-HF
+  # 2023-04-26
+  - TheBloke/wizardLM-7B-HF
+  # 2023-05-26
+  - TheBloke/guanaco-7B-HF
+  # 2023-06-06
+  - openlm-research/open_llama_7b
+  # 2023-06-18
+  - lmsys/vicuna-7b-v1.3
+
+- group: llama-zh
+  name: LLAMA 中文衍生模型
+  models:
+  # 2023-04-10
+  - minlik/chinese-llama-7b-merged
+  # 2023-04-10
+  - minlik/chinese-alpaca-7b-merged
+  # 2023-04-28
+  - minlik/chinese-llama-plus-7b-merged
+  # 2023-04-28
+  - minlik/chinese-alpaca-plus-7b-merged
+  # 2023-05-01
+  - shibing624/chinese-alpaca-plus-7b-hf
+  # 2023-05-08
+  - IDEA-CCNL/Ziya-LLaMA-7B-Reward
+  # 2023-06-07 update from 2023-05-16
+  - IDEA-CCNL/Ziya-LLaMA-13B-v1.1
+
+- group: llama2
+  name: LLAMA-2 及衍生模型
+  models:
+  # 2023-07-18
+  - meta-llama/Llama-2-7b-hf
+  # 2023-07-18
+  - meta-llama/Llama-2-7b-chat-hf
+
+- group: llama2-zh
+  name: LLAMA-2 中文衍生模型
+  models:
+  # 2023-07-21
+  - LinkSoul/Chinese-Llama-2-7b
+  # 2023-07-21
+  - RicardoLee/Llama2-chat-Chinese-50W
+  # 2023-07-23
+  - FlagAlpha/Llama2-Chinese-7b-Chat
+  # 2023-07-23
+  - wenge-research/yayi-7b-llama2
+  # 2023-07-25
+  - OpenBuddy/openbuddy-llama2-13b-v8.1-fp16
+  # 2023-08-24
+  - OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  # 2023-07-25
+  - YeungNLP/firefly-llama2-13b
+  # 2023-07-25
+  - michaelwzhu/Chinese-LlaMA2-chat-7B-sft
+  # 2023-07-28
+  - michaelwzhu/Chinese-LlaMA2-chat-7B-sft-v0.3
+  # 2023-07-27
+  - ziqingyang/chinese-llama-2-7b
+  # 2023-08-10
+  - yentinglin/Taiwan-LLaMa-v1.0
+  # 2023-08-28
+  - FlagAlpha/Atom-7B
+
+- group: bloom
+  name: Bloom 及衍生模型
+  models:
+  # 2022-05-20
+  - bigscience/bloom-7b1
+  # 2023-06-02
+  - wenge-research/yayi-7b
+
+- group: tiger
+  name: TigerBot 模型（变基座模型的过程）
+  models:
+  # 2023-06-01
+  - TigerResearch/tigerbot-7b-base-v1
+  # 2023-07-07
+  - TigerResearch/tigerbot-7b-base-v2
+  # 2023-08-19
+  - TigerResearch/tigerbot-7b-base
+
+
+- group: llm-zh
+  name: 中文大语言模型
+  models:
+  # 2023-03-13
+  - THUDM/chatglm-6b
+  # 2023-04-19
+  - fnlp/moss-moon-003-sft
+  # 2023-04-22
+  - fnlp/moss-moon-003-sft-int4
+  # 2023-06-15
+  - baichuan-inc/baichuan-7B
+  # 2023-06-19
+  - OpenBuddy/openbuddy-falcon-7b-v6-bf16
+  # 2023-06-24
+  - THUDM/chatglm2-6b
+  # 2023-06-26
+  - YeungNLP/firefly-baichuan-7b
+  # 2023-06-28
+  - BAAI/Aquila-7B
+  # 2023-07-06
+  - internlm/internlm-chat-7b
+  # 2023-08-03
+  - Qwen/Qwen-7B-Chat
+  # 2023-08-19
+  - xverse/XVERSE-13B-Chat
+  # 2023-08-25
+  - YeungNLP/firefly-internlm-7b
+
+
+- group: atom
+  name: 原子回声-13B 模型（位于预训练不同阶段）
+  models:
+  # 2023-06-08
+  - AtomEchoAI/AtomGPT_8k
+  # 2023-06-19
+  - AtomEchoAI/AtomGPT_14k
+  # 2023-07-06
+  - AtomEchoAI/AtomGPT_28k
+  # 2023-07-19
+  - AtomEchoAI/AtomGPT_56k
+
+- group: baichuan2
+  name: 百川2-7B 模型（位于预训练不同阶段）
+  models:
+  - baichuan-inc/Baichuan2-7B-Chat
+  - baichuan-inc/Baichuan2-7B-Base
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_00220B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_00440B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_00660B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_00880B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_01100B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_01320B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_01540B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_01760B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_01980B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_02200B
+  - baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints@train_02420B
+
+- group: llm
+  name: 其他大语言模型
+  models:
+  # 2023-04-04
+  - OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5
+  # 2023-04-11
+  - nomic-ai/gpt4all-j
+  # 2023-04-25
+  - tiiuae/falcon-7b-instruct
+  # 2023-05-05
+  - togethercomputer/RedPajama-INCITE-7B-Chat
+  # 2023-06-18
+  - mosaicml/mpt-7b-instruct
+
+- group: openai
+  name: OpenAI 提供的模型
+  models:
+  # - OpenAI/gpt-4
+  # - OpenAI/gpt-3.5-turbo
+  - OpenAI/text-embedding-ada-002
+  # - OpenAI/text-davinci-003
+  # - OpenAI/gpt2
+  # - OpenAI/text-ada-001
+  - OpenAI/text-similarity-babbage-001
+  - OpenAI/text-search-babbage-doc-001
+  # - OpenAI/text-similarity-curie-001
+
+- group: new
+  name: 新增模型，用于服务器批量处理，平时应该被注释掉。
+  models:
+  - TigerResearch/tigerbot-7b-base
+  - TigerResearch/tigerbot-7b-base-v1
+  - TigerResearch/tigerbot-7b-base-v2
