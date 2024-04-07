@@ -311,7 +311,7 @@ One of contriution is that we have publicly release the steps to train our model
 
 ```
 @software{Ziao_HammerLLM_2024,
-author = {Ziao, Ma and Tian, Lan and Yang, Yizhe and Yong, Hu},
+author = {Ziao, Ma and Tian, Lan and Yizhe, Yang and Yong, Hu},
 month = apr,
 title = {{HammerLLM}},
 url = {https://github.com/Academic-Hammer/HammerLLM},
